@@ -12,8 +12,7 @@ O componente squid-pixel se comporta como um pixel de rastreamento simples. Ele 
 
 ### Lista de scripts da página ou via GTM
 
-`
-<script>
+`<script>
 (function(d,s,id){  chk=function(cb){if(window.squidPixelLoaded){cb();}else{window.setTimeout(function(){chk(cb);},100);}};
   b={};b.init=function(a){chk(function(){TP.init(a);});};
   b.registerSell=function(so){chk(function(){TP.registerSell(so);});};
@@ -23,13 +22,11 @@ O componente squid-pixel se comporta como um pixel de rastreamento simples. Ele 
   js.src="https://cdn2.squidit.com.br/referral/squid-pixel.js";te.parentNode.insertBefore(js,te);}
   }(document,'script','squid-pixel'));
   SquidPixel.init("[[ID DA ORGANIZAÇ O DO CLIENTE]]");
-</script>
-`
+</script>`
 
 E neste exemplo mostramos o squid-pixel na tela de conversão 
 
-`
-<script>
+`<script>
   SquidPixel.registerSell({
     order_id: [[__]],
     order_value: [[__]],
@@ -38,12 +35,14 @@ E neste exemplo mostramos o squid-pixel na tela de conversão
       [[__]]
     }
   })
-</script>
-`
+</script>`
 
 ### Atributos
 
 `order_id` ID ÚNICO  DA CONVERSÃO DO ECOMMERCE
+
 `order_value` VALOR DO CARRINHO SE FOR GAMIFICAR VALOR EM VENDAS
+
 `cupom_used` CÓDIGO DO CUPOM SE FOR USADO NA COMPRA]
+
 `other_info` QUALQUER INFORMAÇÃO PERTINENTE A GUARDAR NA CONVERSÃO
