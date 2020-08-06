@@ -29,20 +29,22 @@ E neste exemplo mostramos o squid-pixel na tela de conversão
 `<script>
   SquidPixel.registerSell({
     order_id: [[__]],
-    order_value: [[__]],
-    cupom_used: [[__]],
+    order_value: [[__]], //linha opcional
+    cupom_used: [[__]], //linha opcional
     other_info: {
-      [[__]]
+      [[__]] //linha opcional
     }
   })
 </script>`
 
-### Atributos
+### Atributo Obrigatório
 
-`order_id` ID ÚNICO  DA CONVERSÃO DO ECOMMERCE
+`order_id` ID ÚNICO  DA CONVERSÃO DO ECOMMERCE, POR EXEMPLO `order_id: "ORDERID12345"` - esse Id é importante para fins de audiotoria das conversões junto a plataforma que está integrando o squid-pixel.
 
-`order_value` VALOR DO CARRINHO SE FOR GAMIFICAR VALOR EM VENDAS
+### Atributos Opcionais
 
-`cupom_used` CÓDIGO DO CUPOM SE FOR USADO NA COMPRA]
+`order_value` VALOR DO CARRINHO SE FOR GAMIFICAR VALOR EM VENDAS, POR EXEMPLO `order_value: 100`
 
-`other_info` QUALQUER INFORMAÇÃO PERTINENTE A GUARDAR NA CONVERSÃO
+`cupom_used` CÓDIGO DO CUPOM SE FOR USADO NA COMPRA, POR EXEMPLO `cupom_used: "SQUID10"`
+
+`other_info` QUALQUER INFORMAÇÃO PERTINENTE A GUARDAR NA CONVERSÃO `other_info: {emaildecadastro: "email@exemplo.com"}`
