@@ -26,7 +26,8 @@ O componente squid-pixel se comporta como um pixel de rastreamento simples. Ele 
 
 E neste exemplo mostramos o squid-pixel na tela de conversão 
 
-```<script>
+```
+<script>
   SquidPixel.registerSell({
     order_id: [[__]],
     order_value: [[__]], //linha opcional
@@ -35,7 +36,8 @@ E neste exemplo mostramos o squid-pixel na tela de conversão
       [[__]] //linha opcional
     }
   })
-</script>```
+</script>
+```
 
 ### Atributo Obrigatório
 
