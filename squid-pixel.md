@@ -10,7 +10,7 @@ O componente squid-pixel se comporta como um pixel de rastreamento simples. Ele 
 
 ### Link de influenciador Squid
 
-Para que o SquidPixel consiga receber parâmetros de um influenciador Squid. O link da landing page precisa ter uma querystring nesse formato: `?squid-share=CODIGO`. Esse código é armazenado no dispositivo de acesso e com ele validamos se a conversão de venda ou cadastro foi gerada através do link do influenciador.
+Para que o SquidPixel consiga receber parâmetros de um influenciador Squid. O link da landing page precisa ter uma querystring no seguinte formato: `?squid-share=CODIGO`. Este código é armazenado no dispositivo de acesso e com ele validamos se a conversão de venda ou cadastro foi gerada através do link do influenciador.
 
 ### Cupom de influenciador Squid
 
@@ -99,17 +99,17 @@ Esse script serve para registrar conversões na base da Squid.
 
 #### Instalação:
 
-Esse script precisa ser instalado na tela de sucesso de cadastro ou carrinho. Pode estar no html da página ou pode ser chamado via JS no evento de sucesso de cadastro ou carrinho.
+Este script precisa ser instalado na tela de sucesso de cadastro ou carrinho. Pode estar no html da página ou pode ser chamado via JS no evento de sucesso de cadastro ou carrinho.
 
 ##### Testando instalação:
 
-Para se certificar que essa etapa da instalação foi concluída com sucesso siga o passo-a-passo:
+Para se certificar que essa etapa da instalação foi concluída com sucesso siga o passo a passo:
 
-- Abra o console do navegador
+- Abra o console do navegador;
 
-- Coloque a query string `?squid-share=testpixel` na url da landing page.
+- Coloque a query string `?squid-share=testpixel` na url da landing page;
 
-- Gere uma conversão em sua landing page
+- Gere uma conversão em sua landing page;
 
 - Verifique se tem esses três registros:
 
