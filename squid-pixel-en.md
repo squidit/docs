@@ -109,7 +109,7 @@ This script is used to record conversions at Squid base.
 This script should be installed into success registration page or into cart page. Can be in the HTML page or can be called through JS in success registration event or success cart event.
 
 
-#####  Testing installation:
+#####  How to know if works::
 
 To make sure that this step of installation was successful, follow these step by step:
 
