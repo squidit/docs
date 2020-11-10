@@ -44,7 +44,7 @@ Esse script serve para iniciar o SquidPixel na landing page e para validar se o 
 
 ##### Atributos:
 
-`[[ID DA ORGANIZAÇAO DO CLIENTE]`: Id da organização na Squid usado para validar o link ou cupom do influenciador
+`[[ID DA ORGANIZAÇAO DO CLIENTE]]`: Id da organização na Squid usado para validar o link ou cupom do influenciador
 
 ##### Instalação:
 
@@ -72,14 +72,17 @@ Esse script serve para registrar conversões na base da Squid.
 
 #### Script:
 
+Com parâmetros de exemplo:
+
 ```
 <script>
   SquidPixel.registerSell({
-    order_id: [[__]],
-    order_value: [[__]], //linha opcional
-    cupom_used: [[__]], //linha opcional
-    other_info: {
-      [[__]] //linha opcional
+    order_id: "X1234", // String or Number,
+    order_value: 12345,// Number - linha opcional
+    cupom_used: "cupóm123", // String ou Number - linha opcional
+    other_info: { //Object - linha opcional
+      key1: "xxxxx",
+      key2: "qwerty@apto.com"
     }
   })
 </script>
