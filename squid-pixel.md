@@ -79,7 +79,7 @@ Com parâmetros de exemplo:
   SquidPixel.registerSell({
     order_id: "X1234", // String or Number,
     order_value: 12345,// Number - linha opcional
-    cupom_used: "cupóm123", // String ou Number - linha opcional
+    cupom_used: "cupóm123", // String or Number - linha opcional
     other_info: { //Object - linha opcional
       key1: "xxxxx",
       key2: "qwerty@apto.com"
