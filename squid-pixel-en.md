@@ -46,7 +46,7 @@ This script are used to run the SquidPixel in Landing Page and to validate if th
 
 ##### Attributes:
 
-`[[ID DA ORGANIZAÇAO DO CLIENTE]`: Id Organization in squid, its used to validate the link or coupon from influencer
+`[[ID DA ORGANIZAÇAO DO CLIENTE]]`: Id Organization in squid, its used to validate the link or coupon from influencer
 
 ##### Installation:
 
