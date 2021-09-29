@@ -40,13 +40,13 @@ This script are used to run the SquidPixel in Landing Page and to validate if th
   js=d.createElement(s);js.id=id;
   js.src="https://cdn2.squidit.com.br/referral/squid-pixel.js";te.parentNode.insertBefore(js,te);}
   }(document,'script','squid-pixel'));
-  SquidPixel.init("[[ID DA ORGANIZAÇAO DO CLIENTE]]");
+  SquidPixel.init("[[CUSTOMER ORGANIZATION ID]]");
 </script>
 ```
 
 ##### Attributes:
 
-`[[ID DA ORGANIZAÇAO DO CLIENTE]]`: Id Organization in squid, its used to validate the link or coupon from influencer
+`[[CUSTOMER ORGANIZATION ID]]`: Id Organization in squid, its used to validate the link or coupon from influencer
 
 ##### Installation:
 
@@ -64,7 +64,7 @@ To make sure that this step of installation was successful, follow this step by 
 - Make sure that you have these two records.
 
 
-`Squid - Pixel initiated - organization: ID DA ORGANIZAÇAO DO CLIENTE`
+`Squid - Pixel initiated - organization: CUSTOMER ORGANIZATION ID`
 
 `Squid - Share code validated`
 
