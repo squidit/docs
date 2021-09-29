@@ -80,11 +80,12 @@ This script is used to record conversions at Squid base.
 ```
 <script>
   SquidPixel.registerSell({
-    order_id: [[__]],
-    order_value: [[__]], //linha opcional
-    cupom_used: [[__]], //linha opcional
-    other_info: {
-      [[__]] //linha opcional
+    order_id: "X1234", // String or Number,
+    order_value: 12345, // Number - optional field
+    cupom_used: "cupom123", // String or Number - optional field
+    other_info: { // Object - optional field
+      key1: "xxxxx",
+      key2: "qwerty@apto.com"
     }
   })
 </script>
