@@ -44,7 +44,7 @@ Esse script serve para iniciar o SquidPixel na landing page e para validar se o 
 
 ##### Atributos:
 
-`[[ID DA ORGANIZAÇAO DO CLIENTE]]`: Id da organização na Squid usado para validar o link ou cupom do influenciador (remover os colchetes também, Ex.: `SquidPixel.init("567890123456789012345678");`)
+`[[ID DA ORGANIZAÇAO DO CLIENTE]]`: Id da organização na Squid usado para validar o link ou cupom do influenciador (remover os colchetes também, Exemplo: `SquidPixel.init("567890123456789012345678");`)
 
 ##### Instalação:
 
