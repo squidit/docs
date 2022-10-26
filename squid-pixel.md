@@ -116,8 +116,6 @@ Para se certificar que essa etapa da instalação foi concluída com sucesso sig
 
 - Verifique se tem esses três registros:
 
-`Squid - Pre-convertion registered.`
-
 `Squid - Share code exists`
 
 `Squid - Sell registered`
