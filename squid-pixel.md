@@ -10,7 +10,7 @@ O componente squid-pixel se comporta como um pixel de rastreamento simples. Ele 
 
 ### Link de influenciador Squid
 
-Para que o SquidPixel consiga receber parâmetros de um influenciador Squid. O link da landing page precisa ter uma querystring no seguinte formato: `?squid-share=CODIGO`. Este código é armazenado no dispositivo de acesso e com ele validamos se a conversão de venda ou cadastro foi gerada através do link do influenciador.
+Para que o SquidPixel consiga receber parâmetros de um influenciador Squid. O link da landing page precisa ter um parâmetro na querystring no seguinte formato: `squid-share=CODIGO`. Este código é armazenado no dispositivo de acesso e com ele validamos se a conversão de venda ou cadastro foi gerada através do link do influenciador.
 
 ### Cupom de influenciador Squid
 
@@ -54,9 +54,9 @@ Esse script precisa ser instalado de modo a ser inicializado junto com a landing
 
 Para se certificar que essa etapa da instalação foi concluída com sucesso siga o passo-a-passo:
 
-- Abra o console do navegador
+- Abra o console do navegador (apertar F12 e clicar na aba Console);
 
-- Coloque a query string `?squid-share=testpixel` na url da landing page.
+- Coloque o parâmetro `?squid-share=testpixel` ao final da url da landing page (outros parametros começando com o `?` então usar o `&` no lugar: `&squid-share=testpixel`);
 
 - Verifique se tem esses dois registros:
 
@@ -80,9 +80,9 @@ Com parâmetros de exemplo:
     order_id: "X1234", // String or Number,
     order_value: 12345,// Number - linha opcional
     cupom_used: "cupóm123", // String or Number - linha opcional
-    other_info: { //Object - linha opcional
-      key1: "xxxxx",
-      key2: "qwerty@apto.com"
+    other_info: { //Object - próximas linhas opcionais
+      key1: "xxxxx", // opcional
+      key2: "qwerty@apto.com" // opcional
     }
   })
 </script>
@@ -108,13 +108,13 @@ Este script precisa ser instalado na tela de sucesso de cadastro ou carrinho. Po
 
 Para se certificar que essa etapa da instalação foi concluída com sucesso siga o passo a passo:
 
-- Abra o console do navegador;
+- Abra o console do navegador (apertar F12 e clicar na aba Console);
 
-- Coloque a query string `?squid-share=testpixel` na url da landing page;
+- Coloque o parâmetro `?squid-share=testpixel` ao final da url da landing page (outros parametros começando com o `?` então usar o `&` no lugar: `&squid-share=testpixel`);
 
 - Gere uma conversão em sua landing page;
 
-- Verifique se tem esses três registros:
+- Verifique se tem esses dois registros:
 
 `Squid - Share code exists`
 
