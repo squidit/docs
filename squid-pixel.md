@@ -121,3 +121,27 @@ Para se certificar que essa etapa da instalação foi concluída com sucesso sig
 `Squid - Sell registered`
 
 *A nossa API vai validar que é um link de teste e vai registrar a conversão de teste como se fosse de um influenciador Squid*
+
+#### Testando com a extensão do Chrome:
+
+Instale a extensão:
+
+[Download aqui](https://chrome.google.com/webstore/detail/squid-pixel-assistant/imflonhogldbkpcfoglgajhhmicliemb)
+
+Ela vai aparecer nas extensões como o logo laranja da Squid, basta clicar em cima para visualizar
+
+Casos:
+
+1. Pixel não encontrado:
+
+![notfound](https://user-images.githubusercontent.com/13856071/210419179-c7ce9349-0b25-4454-8587-6f3cd55704be.jpg)
+
+
+2. Pixel encontrado:
+
+![found](https://user-images.githubusercontent.com/13856071/210419202-573599ab-a2e1-4584-b528-0c1c64df1227.jpg)
+
+
+3. Conversão completa:
+
+![convertionsized](https://user-images.githubusercontent.com/13856071/210419231-0d5889c4-cb21-497e-a780-aa2a1f9e458a.jpg)
