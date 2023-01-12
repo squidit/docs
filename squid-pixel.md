@@ -90,7 +90,7 @@ Com parâmetros de exemplo:
 
 ##### Atributo Obrigatório
 
-`order_id` ID ÚNICO  DA CONVERSÃO DO ECOMMERCE, POR EXEMPLO `order_id: "ORDERID12345"` - esse Id é importante para fins de audiotoria das conversões junto a plataforma que está integrando o squid-pixel.
+`order_id` ID ÚNICO  DA CONVERSÃO DO ECOMMERCE, POR EXEMPLO `order_id: "ORDERID12345"` - esse Id é importante para fins de audiotoria das conversões junto a plataforma que está integrando o squid-pixel. (Esse ID pode ser algo que identifique a conversão como única, tipo ID do carrinho se for vendas, ou email do cadastro se for conversões de leads, ou cpf, ou id gerado no banco de dados do cliente. a ideia é conseguir diferenciar uma conversão da outra)
 
 ##### Atributos Opcionais
 
