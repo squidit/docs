@@ -38,13 +38,13 @@ Esse script serve para iniciar o SquidPixel na landing page e para validar se o 
   js=d.createElement(s);js.id=id;
   js.src="https://cdn2.squidit.com.br/referral/squid-pixel.js";te.parentNode.insertBefore(js,te);}
   }(document,'script','squid-pixel'));
-  SquidPixel.init("[[ID DA ORGANIZAÇAO DO CLIENTE]]");
+  SquidPixel.init("ID DA ORGANIZAÇAO DO CLIENTE");
 </script>
 ```
 
 ##### Atributos:
 
-`[[ID DA ORGANIZAÇAO DO CLIENTE]]`: Id da organização na Squid usado para validar o link ou cupom do influenciador (remover os colchetes também, Exemplo: `SquidPixel.init("567890123456789012345678");`)
+`"ID DA ORGANIZAÇAO DO CLIENTE"`: Id da organização na Squid usado para validar o link ou cupom do influenciador (remover os colchetes também, Exemplo: `SquidPixel.init("567890123456789012345678");`)
 
 ##### Instalação:
 
